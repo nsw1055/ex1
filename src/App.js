@@ -3,6 +3,8 @@ import './App.css';
 import Hello from './components/d1/Hello';
 import ProductDisplay from './components/d1/ProductDisplay';
 import ChildEX from './components/d1/ChildEX';
+import ExLayout from './components/d2/ExLayout';
+import Kiosk from './components/d2/Kiosk';
 
 function App() {
 
@@ -18,11 +20,10 @@ function App() {
 
   return (
     <div className="App">
-      <ChildEX children>
-        <ProductDisplay {...product}></ProductDisplay>
-      </ChildEX>
-      
-     
+      <Kiosk>
+
+      </Kiosk>
+
     </div>
   );
 }
