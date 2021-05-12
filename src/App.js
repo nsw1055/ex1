@@ -1,12 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/d1/Hello';
-import ProductDisplay from './components/d1/ProductDisplay';
-import ChildEX from './components/d1/ChildEX';
-import ExLayout from './components/d2/ExLayout';
-import Kiosk from './components/d2/Kiosk';
-import InputEx from './components/d2/InputEx';
-import CountContainer from './components/d2/CountContainer';
+import Kiosk from './components/d3/Kiosk';
+import ProductList from './components/d3/ProductList';
 
 function App() {
 
@@ -33,12 +28,16 @@ function App() {
         <Hello name={'World'}></Hello>
       </ExLayout> */}
       {/* <Kiosk></Kiosk> */}
-      <ExLayout>
+      {/* <ExLayout>
       <CountContainer></CountContainer>
       <CountContainer></CountContainer>
       <CountContainer></CountContainer>
       <CountContainer></CountContainer>
-      </ExLayout>
+      </ExLayout> */}
+
+      {/* day3 */}
+      <Kiosk>
+      </Kiosk>
       
 
     </div>
