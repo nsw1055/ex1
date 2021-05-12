@@ -5,6 +5,8 @@ import ProductDisplay from './components/d1/ProductDisplay';
 import ChildEX from './components/d1/ChildEX';
 import ExLayout from './components/d2/ExLayout';
 import Kiosk from './components/d2/Kiosk';
+import InputEx from './components/d2/InputEx';
+import CountContainer from './components/d2/CountContainer';
 
 function App() {
 
@@ -20,9 +22,24 @@ function App() {
 
   return (
     <div className="App">
-      <Kiosk>
+      {/* day1 */}
+      {/* <ChildEX children>
+        <ProductDisplay {...product}></ProductDisplay>
+      </ChildEX> */}
 
-      </Kiosk>
+      {/* day2 */}
+      {/* Layout 개념 */}
+      {/* <ExLayout>
+        <Hello name={'World'}></Hello>
+      </ExLayout> */}
+      {/* <Kiosk></Kiosk> */}
+      <ExLayout>
+      <CountContainer></CountContainer>
+      <CountContainer></CountContainer>
+      <CountContainer></CountContainer>
+      <CountContainer></CountContainer>
+      </ExLayout>
+      
 
     </div>
   );

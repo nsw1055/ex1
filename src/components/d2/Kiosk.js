@@ -23,13 +23,12 @@ const Kiosk = () => {
     return ( 
         <ExLayout>
             <div className={classes.root}>
-        <Paper elevation={5} />
-        <Paper elevation={5} />
-        <Paper elevation={5} />
-      </div>
-    </ExLayout>
-
-     );
+                <Paper elevation={5} />
+                <Paper elevation={5} />
+                <Paper elevation={5} />
+            </div>
+        </ExLayout>
+    );
 }
  
 export default Kiosk;
