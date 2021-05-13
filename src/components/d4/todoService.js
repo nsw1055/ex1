@@ -25,7 +25,7 @@ export const getList = () => {
 
     const keys = Object.keys(localStorage)
 
-    console.log(keys)
+    //console.log(keys)
 
     const arr = []
 
@@ -33,7 +33,7 @@ export const getList = () => {
     keys.forEach(key => {
         arr.push(JSON.parse(localStorage.getItem(key)))
     })
-    console.log(arr)
+    //console.log(arr)
 
     return arr
 
