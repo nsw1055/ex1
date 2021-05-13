@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Kiosk from './components/d3/Kiosk';
 import ProductList from './components/d3/ProductList';
+import TodoContainer from "./components/d4/TodoContainer";
 
 function App() {
 
@@ -36,8 +37,13 @@ function App() {
       </ExLayout> */}
 
       {/* day3 */}
-      <Kiosk>
-      </Kiosk>
+      {/*<Kiosk>
+      </Kiosk>*/}
+
+      {/* day4 */}
+      <TodoContainer>
+
+      </TodoContainer>
       
 
     </div>
